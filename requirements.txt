@@ -1,0 +1,2 @@
+﻿# The local Gemma demo uses only the Python standard library.
+# SerpApi dependencies will be added during integration.
