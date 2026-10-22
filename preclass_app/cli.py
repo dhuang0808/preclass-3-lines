@@ -1,6 +1,7 @@
 import argparse
 from datetime import datetime, timedelta, timezone
 import json
+from http.client import HTTPException
 from pathlib import Path
 import sys
 import time
@@ -48,7 +49,7 @@ def main(argv=None) -> int:
     except AppError as error:
         print(str(error), file=sys.stderr)
         return 1
-    except (OSError, ValueError, TypeError):
+    except (OSError, ValueError, TypeError, HTTPException):
         print("读取配置、处理接口数据或保存证据失败，请检查文件与服务状态。", file=sys.stderr)
         return 1
     except KeyboardInterrupt:

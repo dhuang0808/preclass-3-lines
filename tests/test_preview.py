@@ -1,6 +1,7 @@
 import contextlib
 import io
 import json
+from http.client import IncompleteRead
 from pathlib import Path
 import tempfile
 import unittest
@@ -111,6 +112,14 @@ class PreviewTests(unittest.TestCase):
         with contextlib.redirect_stderr(err):
             self.assertEqual(main([]), 1)
         self.assertEqual(len(err.getvalue().splitlines()), 1)
+
+    @patch("preclass_app.cli.run_preview", side_effect=IncompleteRead(b"PRIVATE-PARTIAL-CANARY", 20))
+    def test_partial_http_response_does_not_expose_body_or_traceback(self, _):
+        err = io.StringIO()
+        with contextlib.redirect_stderr(err):
+            self.assertEqual(main(["主题"]), 1)
+        self.assertEqual(len(err.getvalue().splitlines()), 1)
+        self.assertNotIn("PRIVATE-PARTIAL-CANARY", err.getvalue())
 
 
 if __name__ == "__main__":

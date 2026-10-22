@@ -4,7 +4,7 @@
 - Final acceptance: PASS, five fresh searches across three topics; repeated gradient-descent query three times, one ongoing Hacktoberfest event, one everyday file-organization question.
 - All final outputs: exactly three lines, no line longer than 64 characters; all final attempts completed on the first generation.
 - Three repeated concept runs returned identical output in this experiment. This is not a guarantee for arbitrary topics or later search results.
-- Fifteen mocked-service unit tests cover empty/missing results, invalid/oversized output, bounded retry, one-line CLI errors, and credential-bearing HTTP errors. Mocked tests are not live evidence.
+- Sixteen mocked-service unit tests cover empty/missing results, invalid/oversized output, bounded retry, one-line CLI errors, credential-bearing HTTP errors and partial HTTP bodies. Mocked tests are not live evidence.
 - Real search exposed marketing placeholders; the prompt and validator now reject those identities as cases. Initial shorter-prompt runs also oversimplified gradient descent and produced a vague Nobel-prize preview.
 - A stricter prompt briefly failed its runtime validation; diagnostics were kept locally, then the JSON example in the prompt was clarified. Earlier public transcripts are retained as iteration evidence.
 - Final event query is explicit English Hacktoberfest wording; the earlier Nobel query's first five results were noisy and are not evidence of factual coverage of all news.

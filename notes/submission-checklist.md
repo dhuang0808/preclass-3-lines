@@ -7,7 +7,7 @@ Checked against https://dev.to/challenges/hacktoberfest-week3-2026-10-19 and htt
 | Open AI at the core | PASS: real local Gemma summarization | PASS: real local TabPFN v2 prediction and Gemma wording |
 | Slow and Steady purpose | Saves repeated preclass searching | Automates a conditional spending comparison |
 | Real partner use | PASS: SerpApi, first five actual title/snippet pairs | PASS: CPU v2, real local snapshot experiment |
-| Technical receipts | Five final function runs across three topics, plus a direct CLI run; fifteen mocked-service tests | Local-only daily aggregation, future forecast and retrospective holdout; ten synthetic unit tests |
+| Technical receipts | Five final function runs across three topics, plus a direct CLI run; sixteen mocked-service tests | Local-only daily aggregation, future forecast and retrospective holdout; ten synthetic unit tests |
 | Public code | GitHub repository created and pushed | GitHub repository created; public code only, private data/results excluded |
 | Data reliability limits | Snippets can be noisy; format validation is not factual verification | Zero-filled days and capture-day completeness are assumptions approved by the user; not verified complete bookkeeping |
 | Demo video or deployed link | PENDING, screenshot placeholder is not a demo | PENDING, private finances must not appear in a public demo |
