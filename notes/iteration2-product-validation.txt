@@ -1,0 +1,14 @@
+Running live case: concept-1
+它是什么：梯度下降迭代优化损失函数值。
+为什么重要：理解其原理有助于模型训练。
+一个例子：假设模型预测房价，目标是最小化误差
+Running live case: concept-2
+Traceback (most recent call last):
+  File "F:\DEVDAY\preclass-3-lines\scripts\validate_product.py", line 16, in <module>
+    receipt = run_preview(topic)
+  File "F:\DEVDAY\preclass-3-lines\preclass_app\cli.py", line 23, in run_preview
+    output, attempts = summarize_sources(topic, format_sources(results), settings)
+                       ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\DEVDAY\preclass-3-lines\preclass_app\summary.py", line 66, in summarize_sources
+    raise AppError("模型连续两次未生成合格的三行短句，请换一个更明确的主题。")
+preclass_app.config.AppError: 模型连续两次未生成合格的三行短句，请换一个更明确的主题。

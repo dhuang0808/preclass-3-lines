@@ -1,0 +1,45 @@
+{
+  "topic": "梯度下降",
+  "live": true,
+  "source_count": 5,
+  "sources": [
+    {
+      "title": "线性回归：梯度下降| Machine Learning",
+      "snippet": "梯度下降法是一种数学技巧，可迭代地找到能使模型产生最低损失的权重和偏差。梯度下降法通过重复以下过程（迭代次数由用户定义）来找到最佳权重和偏差。",
+      "link": "https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent?hl=zh-cn"
+    },
+    {
+      "title": "梯度下降法- 维基百科，自由的百科全书",
+      "snippet": "梯度下降法（英语：Gradient descent）是一种求解无约束最优化问题的一阶迭代最优化算法，它被用来求得可微函数的局部极小值，通常也称为最陡下降法，但是不该与近似积分的 ...",
+      "link": "https://zh.wikipedia.org/zh-hans/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95"
+    },
+    {
+      "title": "梯度下降算法原理讲解——机器学习",
+      "snippet": "梯度下降（gradient descent）在机器学习中应用十分的广泛，不论是在线性回归还是Logistic回归中，它的主要目的是通过迭代找到目标函数的最小值，或者收敛 ...",
+      "link": "https://blog.csdn.net/qq_41800366/article/details/86583789"
+    },
+    {
+      "title": "一文看懂常用的梯度下降算法",
+      "snippet": "概述梯度下降算法（Gradient Descent Optimization）是神经网络模型训练最常用的优化算法。对于深度学习模型，基本都是采用梯度下降算法来进行优化 ...",
+      "link": "https://zhuanlan.zhihu.com/p/31630368"
+    },
+    {
+      "title": "11.3. 梯度下降",
+      "snippet": "来迭代 x ，函数 f ( x ) 的值可能会下降。 因此，在梯度下降中，我们首先选择初始值 x 和常数 η > 0 ， 然后使用它们连续迭代 x ，直到停止条件达成。 例如，当梯度 | f ′ ...",
+      "link": "https://zh.d2l.ai/chapter_optimization/gd.html"
+    }
+  ],
+  "captured_at": "2026-10-22T20:11:59.523416+08:00",
+  "model": "gemma3:4b",
+  "stdout": "它是什么：通过迭代调整参数，降低模型预测误差\n为什么重要：理解其原理有助于理解机器学习模型训练过程\n一个例子：假设训练一个线性回归模型，梯度下降会调整权重，使预测值更接近真实值",
+  "attempts": 1,
+  "line_count": 3,
+  "line_lengths": [
+    22,
+    26,
+    38
+  ],
+  "search_seconds": 1.38,
+  "total_seconds": 4.13,
+  "case": "concept-2"
+}

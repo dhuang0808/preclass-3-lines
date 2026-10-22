@@ -1,0 +1,62 @@
+[
+  {
+    "case": "concept-1",
+    "topic": "梯度下降",
+    "line_count": 3,
+    "line_lengths": [
+      22,
+      26,
+      38
+    ],
+    "attempts": 1,
+    "total_seconds": 4.53
+  },
+  {
+    "case": "concept-2",
+    "topic": "梯度下降",
+    "line_count": 3,
+    "line_lengths": [
+      22,
+      26,
+      38
+    ],
+    "attempts": 1,
+    "total_seconds": 4.13
+  },
+  {
+    "case": "concept-3",
+    "topic": "梯度下降",
+    "line_count": 3,
+    "line_lengths": [
+      22,
+      26,
+      38
+    ],
+    "attempts": 1,
+    "total_seconds": 4.19
+  },
+  {
+    "case": "current-event",
+    "topic": "Hacktoberfest 2026 Week 3 Slow and Steady",
+    "line_count": 3,
+    "line_lengths": [
+      39,
+      30,
+      29
+    ],
+    "attempts": 1,
+    "total_seconds": 4.42
+  },
+  {
+    "case": "daily-life",
+    "topic": "大学生如何整理电脑下载文件夹",
+    "line_count": 3,
+    "line_lengths": [
+      19,
+      25,
+      22
+    ],
+    "attempts": 2,
+    "total_seconds": 14.02
+  }
+]

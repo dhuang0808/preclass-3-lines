@@ -1,0 +1,45 @@
+{
+  "topic": "Hacktoberfest 2026 Week 3 Slow and Steady",
+  "live": true,
+  "source_count": 5,
+  "sources": [
+    {
+      "title": "Hacktoberfest Week 3: Slow and Steady is live! 🦥 🐢 Build ...",
+      "snippet": "Hacktoberfest Week 3: Slow and Steady is live! Build something with open-source AI that rewards laziness $2,850 in prizes across 21 ...",
+      "link": "https://www.instagram.com/p/DesU_ughpr9/"
+    },
+    {
+      "title": "Hacktoberfest Open-Source AI Challenge: Week 3",
+      "snippet": "Week 3 of our five Hacktoberfest DEV Challenges starts today! Running through October 25, the Hacktoberfest Open-Source AI Challenge: Week 3 ...",
+      "link": "https://dev.to/challenges/hacktoberfest-week3-2026-10-19"
+    },
+    {
+      "title": "Hacktoberfest Week 3: Slow and Steady is live!",
+      "snippet": "Hacktoberfest 2026 is here and it's different this time — no more PR race, now it's all about BUILDING with open-source AI. From Greater Noida ...",
+      "link": "https://www.threads.com/@thepracticaldev/post/DesT0dKFgsM/hacktoberfest-week-slow-and-steady-is-live-build-something-with-open-source-ai/"
+    },
+    {
+      "title": "DEV Community",
+      "snippet": "Hacktoberfest Week 3: Slow and Steady is live! Build something with open-source AI that rewards laziness $2,850 in prizes across 21 ...",
+      "link": "https://x.com/ThePracticalDev/status/2112306869716861267"
+    },
+    {
+      "title": "Hacktoberfest Week 3: Slow and Steady is live! 🦥 🐢 Build ...",
+      "snippet": "Hacktoberfest Week 3: Slow and Steady is live! Build something with open-source AI that rewards laziness $2,850 in prizes across 21 ...",
+      "link": "https://www.facebook.com/thepracticaldev/posts/hacktoberfest-week-3-slow-and-steady-is-live-build-something-with-open-source-ai/1733883352113384/"
+    }
+  ],
+  "captured_at": "2026-10-22T20:12:08.135065+08:00",
+  "model": "gemma3:4b",
+  "stdout": "它是什么：Hacktoberfest 2026 侧重于构建，而非快速提交PR。\n为什么重要：鼓励参与者利用开源AI项目，培养长期贡献的习惯。\n一个例子：新同学可以尝试构建一个简单的AI工具，积累经验。",
+  "attempts": 1,
+  "line_count": 3,
+  "line_lengths": [
+    39,
+    30,
+    29
+  ],
+  "search_seconds": 1.34,
+  "total_seconds": 4.42,
+  "case": "current-event"
+}

@@ -1,8 +1,13 @@
 ﻿.env
 .env.*
+!.env.example
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 Thumbs.db
 .DS_Store
+data/
+notes/private/
+.cache/
+.tmp/

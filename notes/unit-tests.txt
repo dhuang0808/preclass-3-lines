@@ -1,0 +1,20 @@
+test_blank_or_missing_field_is_rejected (test_preview.PreviewTests.test_blank_or_missing_field_is_rejected) ... ok
+test_cli_errors_are_one_line_without_traceback (test_preview.PreviewTests.test_cli_errors_are_one_line_without_traceback) ... ok
+test_config_reads_only_local_dotenv_and_rejects_remote_model (test_preview.PreviewTests.test_config_reads_only_local_dotenv_and_rejects_remote_model) ... ok
+test_credential_bearing_error_url_is_not_displayed (test_preview.PreviewTests.test_credential_bearing_error_url_is_not_displayed) ... ok
+test_embedded_line_breaks_cannot_add_a_fourth_line (test_preview.PreviewTests.test_embedded_line_breaks_cannot_add_a_fourth_line) ... ok
+test_empty_search_does_not_fabricate_mock_results (test_preview.PreviewTests.test_empty_search_does_not_fabricate_mock_results) ... ok
+test_english_only_output_is_rejected (test_preview.PreviewTests.test_english_only_output_is_rejected) ... ok
+test_incomplete_snippets_fail_clearly (test_preview.PreviewTests.test_incomplete_snippets_fail_clearly) ... ok
+test_invalid_generation_retries_then_passes (test_preview.PreviewTests.test_invalid_generation_retries_then_passes) ... ok
+test_long_answer_is_rejected_instead_of_silently_truncated (test_preview.PreviewTests.test_long_answer_is_rejected_instead_of_silently_truncated) ... ok
+test_marketing_placeholder_is_not_a_real_case (test_preview.PreviewTests.test_marketing_placeholder_is_not_a_real_case) ... ok
+test_missing_topic_is_one_safe_line (test_preview.PreviewTests.test_missing_topic_is_one_safe_line) ... ok
+test_retry_budget_is_finite (test_preview.PreviewTests.test_retry_budget_is_finite) ... ok
+test_search_uses_first_five_not_sixth_result (test_preview.PreviewTests.test_search_uses_first_five_not_sixth_result) ... ok
+test_three_short_chinese_lines (test_preview.PreviewTests.test_three_short_chinese_lines) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.017s
+
+OK

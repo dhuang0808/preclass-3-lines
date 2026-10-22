@@ -1,0 +1,22 @@
+Running live case: concept-1
+它是什么：通过迭代调整参数，降低模型预测误差
+为什么重要：理解其原理有助于理解机器学习模型训练过程
+一个例子：假设训练一个线性回归模型，梯度下降会调整权重，使预测值更接近真实值
+Running live case: concept-2
+它是什么：通过迭代调整参数，降低模型预测误差
+为什么重要：理解其原理有助于理解机器学习模型训练过程
+一个例子：假设训练一个线性回归模型，梯度下降会调整权重，使预测值更接近真实值
+Running live case: concept-3
+它是什么：通过迭代调整参数，降低模型预测误差
+为什么重要：理解其原理有助于理解机器学习模型训练过程
+一个例子：假设训练一个线性回归模型，梯度下降会调整权重，使预测值更接近真实值
+Running live case: current-event
+它是什么：Hacktoberfest 2026 侧重于构建，而非快速提交PR。
+为什么重要：鼓励参与者利用开源AI项目，培养长期贡献的习惯。
+一个例子：新同学可以尝试构建一个简单的AI工具，积累经验。
+Running live case: daily-life
+它是什么：建立分类体系，便于查找信息。
+为什么重要：不同学科资料性质不同，分类能提高效率。
+一个例子：将资料按课程、项目、用途分类整理。
+Repeated topic: format PASS for all 3 runs; distinct texts: 1
+LIVE ACCEPTANCE PASS: 5 runs, 3 real topics; not a semantic-accuracy benchmark.

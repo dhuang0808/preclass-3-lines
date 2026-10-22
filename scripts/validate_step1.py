@@ -6,11 +6,12 @@ import time
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from preclass import search, summarize
+from preclass_app.cli import run_preview
 
 started = time.perf_counter()
-sources = search("TabPFN")
-output = summarize("TabPFN", sources)
+receipt = run_preview("TabPFN")
+sources = receipt["sources"]
+output = receipt["stdout"]
 assert len(output.splitlines()) == 3
 receipt = {"topic": "TabPFN", "search": "SerpApi Google, no_cache=true",
            "source_count": 5, "sources": sources, "stdout": output,
