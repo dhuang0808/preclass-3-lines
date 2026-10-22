@@ -10,12 +10,13 @@ test_invalid_generation_retries_then_passes (test_preview.PreviewTests.test_inva
 test_long_answer_is_rejected_instead_of_silently_truncated (test_preview.PreviewTests.test_long_answer_is_rejected_instead_of_silently_truncated) ... ok
 test_marketing_placeholder_is_not_a_real_case (test_preview.PreviewTests.test_marketing_placeholder_is_not_a_real_case) ... ok
 test_missing_topic_is_one_safe_line (test_preview.PreviewTests.test_missing_topic_is_one_safe_line) ... ok
+test_observed_editing_instruction_leak_is_rejected (test_preview.PreviewTests.test_observed_editing_instruction_leak_is_rejected) ... ok
 test_partial_http_response_does_not_expose_body_or_traceback (test_preview.PreviewTests.test_partial_http_response_does_not_expose_body_or_traceback) ... ok
 test_retry_budget_is_finite (test_preview.PreviewTests.test_retry_budget_is_finite) ... ok
 test_search_uses_first_five_not_sixth_result (test_preview.PreviewTests.test_search_uses_first_five_not_sixth_result) ... ok
 test_three_short_chinese_lines (test_preview.PreviewTests.test_three_short_chinese_lines) ... ok
 
 ----------------------------------------------------------------------
-Ran 16 tests in 0.022s
+Ran 17 tests in 0.016s
 
 OK

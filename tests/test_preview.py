@@ -45,6 +45,11 @@ class PreviewTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_answer(dict(ANSWER, example="Jane Doe 使用了这个模型。"))
 
+    def test_observed_editing_instruction_leak_is_rejected(self):
+        observed = '假设：客户服务机器人使用RAG，能提供更准确的产品信息。”} 替换为： 替换为：{'
+        with self.assertRaisesRegex(ValueError, "编辑说明"):
+            validate_answer(dict(ANSWER, example=observed))
+
     def test_embedded_line_breaks_cannot_add_a_fourth_line(self):
         self.assertEqual(len(validate_answer(dict(ANSWER, why="一句\n补充")).splitlines()), 3)
 

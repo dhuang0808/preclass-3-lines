@@ -23,6 +23,8 @@ def validate_answer(answer) -> str:
             raise ValueError("每行需用中文且不超过64个字符（含标签）")
         if re.search(r"Jane\s*Doe|John\s*Doe|Fintech\s*Co", value, re.IGNORECASE):
             raise ValueError("不得引用营销占位人名或公司")
+        if any(token in value for token in ("{", "}", "```")) or re.search(r"替换为\s*[：:]", value):
+            raise ValueError("短句不能夹带结构标记或编辑说明")
         lines.append(line)
     return "\n".join(lines)
 
@@ -36,12 +38,13 @@ def summarize_sources(topic: str, sources: str, settings: Settings, diagnostics=
 <search_data>
 {sources}
 </search_data>
-只输出这样的 JSON（用你自己的内容替换值）：
+只输出以下三个字段的 JSON，每个字段写完整自然的短句：
 {{"what":"一句中文解释","why":"一句中文意义","example":"假设的一句应用场景"}}
-what：增加一条资料支持的关键信息，不能只照抄主题；时事要说明发生了什么。
-why：说明为何值得了解，避免夸大准确率或保证效果。
+what：用资料支持的工作机制解释定义，不能只照抄主题或只写效果；时事要说明发生了什么。
+why：说明为何值得了解，避免“显著提升”等无依据的强断言，不保证效果。
 example：给一个简单、明确标为“假设”的应用场景；不得编造人名或获奖者，禁止“假设某人获奖”这类没有帮助的例子。
 每个值用一句中文，最多45个字符，英文术语可以保留；不要重复标签，不要使用 Markdown。
+字段内容不能含花括号、代码围栏或“替换为”等编辑说明，直接给最终短句。
 概念准确性自查：优化算法降低的是损失函数值，不是把模型参数本身变小；不要保证达到全局最优。
 摘要若不充分，明确说“资料不足，暂不能确认”，而不是重复标题敷衍；不能假装阅读了网页全文。"""
     opener = build_opener(ProxyHandler({}))
