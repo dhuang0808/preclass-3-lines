@@ -4,42 +4,42 @@
   "source_count": 5,
   "sources": [
     {
+      "title": "Explaining the Decline in the US Employment-to- ...",
+      "snippet": "This paper first documents trends in employment rates and then reviews what is known about the various factors that have been proposed to explain the decline in ...",
+      "link": "https://www.aeaweb.org/articles?id=10.1257/jel.20191480"
+    },
+    {
       "title": "线性回归：梯度下降| Machine Learning",
       "snippet": "梯度下降法是一种数学技巧，可迭代地找到能使模型产生最低损失的权重和偏差。梯度下降法通过重复以下过程（迭代次数由用户定义）来找到最佳权重和偏差。",
       "link": "https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent?hl=zh-cn"
     },
     {
-      "title": "梯度下降法- 维基百科，自由的百科全书",
-      "snippet": "梯度下降法（英语：Gradient descent）是一种求解无约束最优化问题的一阶迭代最优化算法，它被用来求得可微函数的局部极小值，通常也称为最陡下降法，但是不该与近似积分的 ...",
-      "link": "https://zh.wikipedia.org/zh-hans/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95"
+      "title": "Chapter 12 – Skills, Tasks and Technologies",
+      "snippet": "Abstract. A central organizing framework of the voluminous recent literature studying changes in the returns to skills and the evolution of earnings ...",
+      "link": "https://economics.mit.edu/sites/default/files/publications/Skills%2C%20Tasks%20and%20Technologies%20-%20Implications%20for%20.pdf"
     },
     {
-      "title": "梯度下降算法原理讲解——机器学习",
-      "snippet": "梯度下降（gradient descent）在机器学习中应用十分的广泛，不论是在线性回归还是Logistic回归中，它的主要目的是通过迭代找到目标函数的最小值，或者收敛 ...",
-      "link": "https://blog.csdn.net/qq_41800366/article/details/86583789"
+      "title": "原因不明的体重下降- 病因与定义",
+      "snippet": "不明原因体重下降是指非刻意的体重减轻。这种体重下降可能是由某种身体或心理健康状况所致。 并没有一个绝对精确的数值来界定体重下降是否需引起医学关注 ...",
+      "link": "https://www.mayoclinic.org/zh-hans/symptoms/unexplained-weight-loss/basics/causes/sym-20050700"
     },
     {
-      "title": "一文看懂常用的梯度下降算法",
-      "snippet": "概述梯度下降算法（Gradient Descent Optimization）是神经网络模型训练最常用的优化算法。对于深度学习模型，基本都是采用梯度下降算法来进行优化 ...",
-      "link": "https://zhuanlan.zhihu.com/p/31630368"
-    },
-    {
-      "title": "11.3. 梯度下降",
-      "snippet": "来迭代 x ，函数 f ( x ) 的值可能会下降。 因此，在梯度下降中，我们首先选择初始值 x 和常数 η > 0 ， 然后使用它们连续迭代 x ，直到停止条件达成。 例如，当梯度 | f ′ ...",
-      "link": "https://zh.d2l.ai/chapter_optimization/gd.html"
+      "title": "关于生育率下降的讨论",
+      "snippet": "生育率下降能够促进更多劳动力参与经济活动、增加储蓄以及积累更多的物质和人力资本，从而刺激经济增长。人口减少也可能减轻与气候变化、自然资源枯竭和环境退化相关的环境 ...",
+      "link": "https://www.imf.org/zh/publications/fandd/issues/2025/06/the-debate-over-falling-fertility-david-bloom"
     }
   ],
-  "captured_at": "2026-10-22T20:12:03.710026+08:00",
+  "captured_at": "2026-10-22T21:16:19.469881+08:00",
   "model": "gemma3:4b",
-  "stdout": "它是什么：通过迭代调整参数，降低模型预测误差\n为什么重要：理解其原理有助于理解机器学习模型训练过程\n一个例子：假设训练一个线性回归模型，梯度下降会调整权重，使预测值更接近真实值",
+  "stdout": "它是什么：梯度下降是一种迭代优化算法，通过计算损失函数梯度来调整模型参数，以最小化损失。\n为什么重要：理解梯度下降有助于掌握机器学习中模型训练的基本原理，并能更好地理解模型参数是如何更新的。\n一个例子：假设一个线性回归模型，通过梯度下降不断调整权重，降低预测值与真实值之间的误差。",
   "attempts": 1,
   "line_count": 3,
   "line_lengths": [
-    22,
-    26,
-    38
+    44,
+    50,
+    44
   ],
-  "search_seconds": 1.48,
-  "total_seconds": 4.19,
+  "search_seconds": 1.09,
+  "total_seconds": 4.35,
   "case": "concept-3"
 }

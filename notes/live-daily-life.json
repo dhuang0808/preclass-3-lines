@@ -4,42 +4,42 @@
   "source_count": 5,
   "sources": [
     {
-      "title": "超实用电脑文件整理术，高薪人士都用这一招（快收藏）",
-      "snippet": "1. 个人文件 · 2. 工作文件 · 3. 整理后的资料 · 4. 下载的大量相关资料（未整理） · 1. 文件的命名规范 · 2. 文件夹的命名规范 · 3. 电脑桌面的清理 · 4. 备份 ...",
-      "link": "https://www.sohu.com/a/242226737_687431"
+      "title": "文件App",
+      "snippet": "通过“文件”访问和整理设备上或云端中的文件。“最近使用”视图会显示您近期所处理文件的高分辨率缩略图。使用强大的“浏览”视图来浏览文件夹、使用标签整理文件、跨文件夹 ...",
+      "link": "https://apps.apple.com/cn/app/%E6%96%87%E4%BB%B6/id1232058109"
     },
     {
-      "title": "电脑如何整理桌面上的文件",
-      "snippet": "在电脑中安装桌面整理软件。我们可以从浏览器或者软件管家中下载。 2/6. 下载完成后单击安装，等待一会儿安装完成。这个时候它会自动的整理我们桌面上的软件及文件。",
-      "link": "https://jingyan.baidu.com/article/0964eca20e3adcc385f536fa.html"
+      "title": "微信文件传输助手网页版",
+      "snippet": "浏览器版本过低，暂无法使用微信文件传输助手网页版。 可对浏览器升级或尝试其它浏览器。 暂无法使用微信文件传输助手网页版，可尝试使用电脑端其他浏览器访问。",
+      "link": "https://filehelper.weixin.qq.com/"
     },
     {
-      "title": "0基础学电脑――电脑桌面的整理之文件夹的使用方法好看视频",
-      "snippet": "Office办公软件，从0基础开始教学。 希望带你走入知识的海洋.",
-      "link": "https://www.youtube.com/watch?v=nLpAgm8jEV8"
+      "title": "文件證明- 駐芝加哥台北經濟文化辦事處Taipei Economic and ...",
+      "snippet": "電話 1-312-616-0100 撥打本處電話若遇佔線或忙線情形，可依語音指示進行留言，或改寄電子郵件(chi@mofa.gov.tw)給本處，稍後均有專人回應及處理。",
+      "link": "https://www.taiwanembassy.org/uschi/cat/11.html"
     },
     {
-      "title": "建筑学学生如何整理自己电脑的文件夹? - 阿尔瓦的回答",
-      "snippet": "建筑学学生如何整理自己电脑的文件夹? 每次做完作业，自己的桌面都放满了各种图片，文件所以每次都要整理。平常的下资料也分布在不同盘中，找起来非常 ...",
-      "link": "https://www.zhihu.com/question/35062724/answer/66493248"
+      "title": "Google 文件- Google Play 應用程式",
+      "snippet": "在Android 手機或平板電腦上安裝Google 文件應用程式後，便能建立、編輯文件以及與他人協同合作。Google 文件的功能如下： - 建立新文件或編輯現有檔案 - ...",
+      "link": "https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.docs&hl=zh_TW"
     },
     {
-      "title": "电脑文件一团乱？教你4大绝招快速整理！",
-      "snippet": "这时候，我就给她推荐了自己一直在用的一款办公神器——永中优云，不光可以备份文件，还能在线查看各种格式的文件，包括Office 文档、PDF、图片、视频、 ...",
-      "link": "https://www.sohu.com/a/445390325_308338"
+      "title": "文件證明- 駐舊金山台北經濟文化辦事處Taipei Economic and ...",
+      "snippet": "文件證明 · 1. 辦理授權書、委託書、居住證明、遺產繼承拋棄書或其他簽字證明. 2016-03-01 (2026-09-30) · 2. 辦理出生文件驗證. 2016-03-01 (2026-09-30) · 3. 辦理死亡或 ...",
+      "link": "https://www.roc-taiwan.org/ussfo/cat/12.html"
     }
   ],
-  "captured_at": "2026-10-22T20:12:22.157774+08:00",
+  "captured_at": "2026-10-22T21:16:28.497146+08:00",
   "model": "gemma3:4b",
-  "stdout": "它是什么：建立分类体系，便于查找信息。\n为什么重要：不同学科资料性质不同，分类能提高效率。\n一个例子：将资料按课程、项目、用途分类整理。",
-  "attempts": 2,
+  "stdout": "它是什么：文件App提供文件访问和整理功能，支持标签分类。\n为什么重要：帮助学生更高效地管理电脑上的各种文件资料。\n一个例子：假设你下载了课程资料，可以用标签分类，方便查找。",
+  "attempts": 1,
   "line_count": 3,
   "line_lengths": [
-    19,
-    25,
-    22
+    29,
+    27,
+    29
   ],
-  "search_seconds": 1.35,
-  "total_seconds": 14.02,
+  "search_seconds": 1.21,
+  "total_seconds": 4.31,
   "case": "daily-life"
 }

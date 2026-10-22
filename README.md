@@ -32,7 +32,7 @@ In `.env`, fill `SERPAPI_API_KEY`. Leave `SERPAPI_PROXY` empty for a direct conn
 ```powershell
 python preclass.py "梯度下降"
 python preclass.py "大学生如何整理电脑下载文件夹"
-python preclass.py "TabPFN" --save-evidence notes/my-run.json
+python preclass.py "检索增强生成 RAG" --save-evidence notes/my-run.json
 ```
 
 On success stdout contains exactly three Chinese lines, each at most 64 characters including its label. `--save-evidence` optionally records the public titles, snippets, source links, timestamps, timings and generated output in JSON, without the API key or credential-bearing request URL.
@@ -45,9 +45,9 @@ The verified example and all three-topic live receipts are in `notes/live-*.json
 
 <!-- LIVE_EXAMPLE_START -->
 ```text
-它是什么：通过迭代调整参数，降低模型预测误差
-为什么重要：理解其原理有助于理解机器学习模型训练过程
-一个例子：假设训练一个线性回归模型，梯度下降会调整权重，使预测值更接近真实值
+它是什么：梯度下降是一种迭代优化算法，通过计算损失函数梯度来调整模型参数，以最小化损失。
+为什么重要：理解梯度下降有助于掌握机器学习中模型训练的基本原理，并能更好地理解模型参数是如何更新的。
+一个例子：假设一个线性回归模型，通过梯度下降不断调整权重，降低预测值与真实值之间的误差。
 ```
 <!-- LIVE_EXAMPLE_END -->
 
@@ -67,7 +67,9 @@ The model generates JSON fields; Python validates nonempty Chinese text, limits 
 
 Gemma's local inference is the core summarization step. The prompt, model choice and validation are inspectable and changeable; no hosted LLM API is used. The **query goes to SerpApi**, which retrieves Google results. The result snippets go to the model on this computer. This is not a fully offline application and should not be used for private queries you do not want sent to a search service.
 
-This project uses Gemma and SerpApi meaningfully. The intended entry is **Best Use of SerpApi**; the final submission/category decision remains with the author. Official requirements and the one-entry-per-week constraint are recorded in `notes/official-requirements.md`.
+This is the sole planned entry. Its **Prize Categories** are **Best Use of SerpApi** and **Best Use of Gemma**, both used in the working pipeline. The backup project has been canceled. Official requirements and the one-entry-per-week constraint are recorded in `notes/official-requirements.md`.
+
+Article evidence: [why local Gemma](notes/why-local-gemma.md), [measured payoff and its limits](notes/lazy-payoff-measurement.md), and [raw measurements](notes/article-measurements.json). These distinguish machine timing from human reading time, and local inference from fully offline search.
 
 ## Errors and checks
 

@@ -1,0 +1,297 @@
+{
+  "measured_at": "2026-10-22T21:09:30.143564+08:00",
+  "topic": "检索增强生成 RAG 是什么",
+  "protocol": "3 sequential fresh live runs; fetch first run's 5 links once; 3 cached-source local runs",
+  "human_lookup_seconds": null,
+  "human_pages_read": null,
+  "human_three_line_read_seconds": null,
+  "human_measurement_status": "not measured; machine timings cannot establish human time saved",
+  "live_runs": [
+    {
+      "topic": "检索增强生成 RAG 是什么",
+      "live": true,
+      "source_count": 5,
+      "sources": [
+        {
+          "title": "什么是RAG？— 检索增强生成AI 详解",
+          "snippet": "检索增强生成（RAG）是指对大语言模型输出进行优化，使其能够在生成响应之前引用训练数据来源之外的权威知识库。大语言模型（LLM）用海量数据进行训练，使用数十亿个参数为 ...",
+          "link": "https://aws.amazon.com/cn/what-is/retrieval-augmented-generation/"
+        },
+        {
+          "title": "一文读懂：大模型RAG（检索增强生成）含高级方法",
+          "snippet": "RAG的架构如图中所示，简单来讲，RAG就是通过检索获取相关的知识并将其融入Prompt，让大模型能够参考相应的知识从而给出合理回答。 因此，可以将RAG的核心理解为“检索+生成 ...",
+          "link": "https://zhuanlan.zhihu.com/p/675509396"
+        },
+        {
+          "title": "什么是检索增强生成(RAG)？",
+          "snippet": "RAG（即检索增强生成）是一种AI 框架，将传统信息检索系统（例如搜索和数据库）的优势与生成式大语言模型(LLM) 的功能相结合。通过将您的数据和世界知识与LLM 语言技能相 ...",
+          "link": "https://cloud.google.com/use-cases/retrieval-augmented-generation?hl=zh-CN"
+        },
+        {
+          "title": "什么是检索增强生成(RAG)？| RAG 全面指南",
+          "snippet": "检索增强生成(RAG) 是一种使用来自私有或专有数据源的信息来补充文本生成的技术。它将检索模型（设计用于搜索大型数据集或知识库）和生成模型（例如大型语言模型(LLM)，此 ...",
+          "link": "https://www.elastic.co/cn/what-is/retrieval-augmented-generation"
+        },
+        {
+          "title": "什么是检索增强生成？",
+          "snippet": "检索增强生成（RAG）是一种能够提高生成式AI 应用所生成答案的质量和相关性的技术。它的工作原理是将大语言模型（LLM）的预训练知识与外部资源关联 ...",
+          "link": "https://www.redhat.com/zh-cn/topics/ai/what-is-retrieval-augmented-generation"
+        }
+      ],
+      "captured_at": "2026-10-22T21:09:43.843133+08:00",
+      "model": "gemma3:4b",
+      "stdout": "它是什么：让大型语言模型更准确地回答问题，减少幻觉。\n为什么重要：RAG能显著提升AI回答的质量，尤其在知识密集型任务中。\n一个例子：假设一个客户服务机器人，RAG能快速检索产品信息，给出更准确的解答。",
+      "attempts": 1,
+      "line_count": 3,
+      "line_lengths": [
+        26,
+        34,
+        39
+      ],
+      "search_seconds": 1.33,
+      "total_seconds": 13.7,
+      "input_title_snippet_chars": 531,
+      "output_chars_excluding_linebreaks": 99
+    },
+    {
+      "topic": "检索增强生成 RAG 是什么",
+      "live": true,
+      "source_count": 5,
+      "sources": [
+        {
+          "title": "什么是RAG？— 检索增强生成AI 详解",
+          "snippet": "检索增强生成（RAG）是指对大语言模型输出进行优化，使其能够在生成响应之前引用训练数据来源之外的权威知识库。大语言模型（LLM）用海量数据进行训练，使用数十亿个参数为 ...",
+          "link": "https://aws.amazon.com/cn/what-is/retrieval-augmented-generation/"
+        },
+        {
+          "title": "一文读懂：大模型RAG（检索增强生成）含高级方法",
+          "snippet": "RAG的架构如图中所示，简单来讲，RAG就是通过检索获取相关的知识并将其融入Prompt，让大模型能够参考相应的知识从而给出合理回答。 因此，可以将RAG的核心理解为“检索+生成 ...",
+          "link": "https://zhuanlan.zhihu.com/p/675509396"
+        },
+        {
+          "title": "什么是检索增强生成(RAG)？",
+          "snippet": "RAG（即检索增强生成）是一种AI 框架，将传统信息检索系统（例如搜索和数据库）的优势与生成式大语言模型(LLM) 的功能相结合。通过将您的数据和世界知识与LLM 语言技能相 ...",
+          "link": "https://cloud.google.com/use-cases/retrieval-augmented-generation?hl=zh-CN"
+        },
+        {
+          "title": "什么是检索增强生成(RAG)？| RAG 全面指南",
+          "snippet": "检索增强生成(RAG) 是一种使用来自私有或专有数据源的信息来补充文本生成的技术。它将检索模型（设计用于搜索大型数据集或知识库）和生成模型（例如大型语言模型(LLM)，此 ...",
+          "link": "https://www.elastic.co/cn/what-is/retrieval-augmented-generation"
+        },
+        {
+          "title": "什么是检索增强生成？",
+          "snippet": "检索增强生成（RAG）是一种能够提高生成式AI 应用所生成答案的质量和相关性的技术。它的工作原理是将大语言模型（LLM）的预训练知识与外部资源关联 ...",
+          "link": "https://www.redhat.com/zh-cn/topics/ai/what-is-retrieval-augmented-generation"
+        }
+      ],
+      "captured_at": "2026-10-22T21:09:57.864565+08:00",
+      "model": "gemma3:4b",
+      "stdout": "它是什么：让LLM更准确地回答问题，引用外部知识。\n为什么重要：提升AI回答质量，减少幻觉，实用性强。\n一个例子：假设：客户服务机器人使用RAG，能提供更准确的产品信息。”} 替换为： 替换为：{",
+      "attempts": 2,
+      "line_count": 3,
+      "line_lengths": [
+        25,
+        25,
+        46
+      ],
+      "search_seconds": 1.09,
+      "total_seconds": 14.02,
+      "input_title_snippet_chars": 531,
+      "output_chars_excluding_linebreaks": 96
+    },
+    {
+      "topic": "检索增强生成 RAG 是什么",
+      "live": true,
+      "source_count": 5,
+      "sources": [
+        {
+          "title": "什么是RAG？— 检索增强生成AI 详解",
+          "snippet": "检索增强生成（RAG）是指对大语言模型输出进行优化，使其能够在生成响应之前引用训练数据来源之外的权威知识库。大语言模型（LLM）用海量数据进行训练，使用数十亿个参数为 ...",
+          "link": "https://aws.amazon.com/cn/what-is/retrieval-augmented-generation/"
+        },
+        {
+          "title": "一文读懂：大模型RAG（检索增强生成）含高级方法",
+          "snippet": "RAG的架构如图中所示，简单来讲，RAG就是通过检索获取相关的知识并将其融入Prompt，让大模型能够参考相应的知识从而给出合理回答。 因此，可以将RAG的核心理解为“检索+生成 ...",
+          "link": "https://zhuanlan.zhihu.com/p/675509396"
+        },
+        {
+          "title": "什么是检索增强生成(RAG)？",
+          "snippet": "RAG（即检索增强生成）是一种AI 框架，将传统信息检索系统（例如搜索和数据库）的优势与生成式大语言模型(LLM) 的功能相结合。通过将您的数据和世界知识与LLM 语言技能相 ...",
+          "link": "https://cloud.google.com/use-cases/retrieval-augmented-generation?hl=zh-CN"
+        },
+        {
+          "title": "什么是检索增强生成(RAG)？| RAG 全面指南",
+          "snippet": "检索增强生成(RAG) 是一种使用来自私有或专有数据源的信息来补充文本生成的技术。它将检索模型（设计用于搜索大型数据集或知识库）和生成模型（例如大型语言模型(LLM)，此 ...",
+          "link": "https://www.elastic.co/cn/what-is/retrieval-augmented-generation"
+        },
+        {
+          "title": "什么是检索增强生成？",
+          "snippet": "检索增强生成（RAG）是一种能够提高生成式AI 应用所生成答案的质量和相关性的技术。它的工作原理是将大语言模型（LLM）的预训练知识与外部资源关联 ...",
+          "link": "https://www.redhat.com/zh-cn/topics/ai/what-is-retrieval-augmented-generation"
+        }
+      ],
+      "captured_at": "2026-10-22T21:10:13.249017+08:00",
+      "model": "gemma3:4b",
+      "stdout": "它是什么：让LLM更准确地回答问题，引用外部知识。\n为什么重要：提升AI回答质量，减少幻觉，实用性强。\n一个例子：假设：客户服务机器人使用RAG，能提供更准确的产品信息。”} 替换为： 替换为：{",
+      "attempts": 2,
+      "line_count": 3,
+      "line_lengths": [
+        25,
+        25,
+        46
+      ],
+      "search_seconds": 2.96,
+      "total_seconds": 15.38,
+      "input_title_snippet_chars": 531,
+      "output_chars_excluding_linebreaks": 96
+    }
+  ],
+  "page_retrieval": [
+    {
+      "title": "什么是RAG？— 检索增强生成AI 详解",
+      "url": "https://aws.amazon.com/cn/what-is/retrieval-augmented-generation/",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes_read": 377388,
+      "capped": false,
+      "rough_html_text_chars": 3467,
+      "seconds": 5.169
+    },
+    {
+      "title": "一文读懂：大模型RAG（检索增强生成）含高级方法",
+      "url": "https://zhuanlan.zhihu.com/p/675509396",
+      "error": "HTTP 403",
+      "seconds": 0.266
+    },
+    {
+      "title": "什么是检索增强生成(RAG)？",
+      "url": "https://cloud.google.com/use-cases/retrieval-augmented-generation?hl=zh-CN",
+      "error": "URLError",
+      "seconds": 8.127
+    },
+    {
+      "title": "什么是检索增强生成(RAG)？| RAG 全面指南",
+      "url": "https://www.elastic.co/cn/what-is/retrieval-augmented-generation",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes_read": 374585,
+      "capped": false,
+      "rough_html_text_chars": 4089,
+      "seconds": 7.954
+    },
+    {
+      "title": "什么是检索增强生成？",
+      "url": "https://www.redhat.com/zh-cn/topics/ai/what-is-retrieval-augmented-generation",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes_read": 446037,
+      "capped": false,
+      "rough_html_text_chars": 9700,
+      "seconds": 2.951
+    }
+  ],
+  "cached_local_runs": [
+    {
+      "api_key_present": false,
+      "stdout": "它是什么：让LLM更准确地回答问题，引用外部知识。\n为什么重要：提升AI回答质量，减少幻觉，实用性强。\n一个例子：假设：客户服务机器人使用RAG，能提供更准确的产品信息。”} 替换为： 替换为：{",
+      "attempts": 2,
+      "line_count": 3,
+      "seconds": 16.393
+    },
+    {
+      "api_key_present": false,
+      "stdout": "它是什么：让LLM更准确地回答问题，引用外部知识。\n为什么重要：提升AI回答质量，减少幻觉，实用性强。\n一个例子：假设：客服问用户产品问题，RAG提供相关文档。",
+      "attempts": 2,
+      "line_count": 3,
+      "seconds": 12.592
+    },
+    {
+      "api_key_present": false,
+      "stdout": "它是什么：让LLM更准确地回答问题，引用外部知识。\n为什么重要：提升AI回答质量，减少幻觉，实用性强。\n一个例子：假设：客户服务机器人使用RAG，能提供更准确的产品信息。”} 替换为： 替换为：{",
+      "attempts": 2,
+      "line_count": 3,
+      "seconds": 12.613
+    }
+  ],
+  "guard_self_test": "external address rejected before connect",
+  "client_socket_connect_calls": [
+    {
+      "host": "203.0.113.1",
+      "port": 443,
+      "allowed": false
+    },
+    {
+      "host": "::1",
+      "port": 11434,
+      "allowed": true
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 11434,
+      "allowed": true
+    },
+    {
+      "host": "::1",
+      "port": 11434,
+      "allowed": true
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 11434,
+      "allowed": true
+    },
+    {
+      "host": "::1",
+      "port": 11434,
+      "allowed": true
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 11434,
+      "allowed": true
+    },
+    {
+      "host": "::1",
+      "port": 11434,
+      "allowed": true
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 11434,
+      "allowed": true
+    },
+    {
+      "host": "::1",
+      "port": 11434,
+      "allowed": true
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 11434,
+      "allowed": true
+    },
+    {
+      "host": "::1",
+      "port": 11434,
+      "allowed": true
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 11434,
+      "allowed": true
+    }
+  ],
+  "guard_scope": "Only this Python client's socket.connect; not the Ollama process, OS, DNS, or a physical disconnection test",
+  "summary": {
+    "live_successes": 3,
+    "live_attempts": 3,
+    "live_seconds_median": 14.02,
+    "live_seconds_min": 13.7,
+    "live_seconds_max": 15.38,
+    "page_requests_attempted": 5,
+    "page_http_successes": 3,
+    "page_retrieval_seconds_sum": 24.467,
+    "cached_local_successes": 3
+  },
+  "quality_review": "Initial validator passed format but admitted editing-instruction fragments in 2 live and 2 cached runs. These are failed quality samples, not usable polished output. Re-run after guard/prompt fix is article-measurements.json."
+}

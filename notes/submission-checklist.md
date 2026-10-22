@@ -1,22 +1,23 @@
-# Day 2 self-check against official requirements
+# B 投稿自查（2026-10-22，新令生效后）
 
-Checked against https://dev.to/challenges/hacktoberfest-week3-2026-10-19 and https://dev.to/llms.txt on 2026-10-22.
+唯一投稿项目：课前三行速通。A 已按令取消；不再继续 TabPFN 冒烟或 A 管线开发。旧提交保留为历史，不代表当前投稿范围。
 
-| Item | Main project B | Backup project A |
-| --- | --- | --- |
-| Open AI at the core | PASS: real local Gemma summarization | PASS: real local TabPFN v2 prediction and Gemma wording |
-| Slow and Steady purpose | Saves repeated preclass searching | Automates a conditional spending comparison |
-| Real partner use | PASS: SerpApi, first five actual title/snippet pairs | PASS: CPU v2, real local snapshot experiment |
-| Technical receipts | Five final function runs across three topics, plus a direct CLI run; sixteen mocked-service tests | Local-only daily aggregation, future forecast and retrospective holdout; ten synthetic unit tests |
-| Public code | GitHub repository created and pushed | GitHub repository created; public code only, private data/results excluded |
-| Data reliability limits | Snippets can be noisy; format validation is not factual verification | Zero-filled days and capture-day completeness are assumptions approved by the user; not verified complete bookkeeping |
-| Demo video or deployed link | PENDING, screenshot placeholder is not a demo | PENDING, private finances must not appear in a public demo |
-| English DEV article using template and required tags | PENDING | PENDING, only a backup until coordinator decision |
-| Accurate AI disclosure | PENDING at article publication; do not claim human authorship for an agent-produced article | Same |
-| Participant eligibility | Human must confirm before submission | Same |
+| 项目 | 当前状态 |
+| --- | --- |
+| 开放 AI 在核心流程 | 已完成：本地 Gemma 3 4B 负责摘要 |
+| Slow and Steady 主题 | 课前输入主题，自动获得三行初步认识 |
+| SerpApi 实质使用 | 已完成：实时获取前五条标题和摘要 |
+| 成品 CLI、分模块、安全错误 | 已完成；17 项模拟服务测试通过 |
+| 三类主题与重复运行 | 已完成；公开运行证据在 notes/live-*.json |
+| README、安装、用法、许可、配置模板 | 已完成 |
+| 公开代码 | 已推送 dhuang0808/preclass-3-lines |
+| Prize Categories | 固定列出 Best Use of SerpApi、Best Use of Gemma |
+| 本地模型取舍和量化材料 | 见 why-local-gemma.md、lazy-payoff-measurement.md；真人计时未做，不得写成已测 |
+| 演示视频或部署链接 | 待完成；截图占位不算演示 |
+| 英文 DEV 投稿文章 | 待完成，按官方模板写；必须说明开放创新 |
+| 必带标签 | 发布时填写 devchallenge、hf26challenge |
+| AI 披露与本人资格 | 发布前如实填写并由本人确认；主要由 agent 写的稿不能冒称人主写 |
 
-The contest deadline is 2026-10-26 14:59 Asia/Shanghai. Each person has one counted submission this week; one project can enter multiple genuinely used categories. Do not publish A and B as two independent qualifying entries. The original B-first strategy remains in force pending the coordinator's decision.
+截止：北京时间 2026-10-26 14:59。本周每人只计第一篇投稿，一个项目可列出多个真实使用的合作类别。来源见 [官方核实记录](official-requirements.md)。
 
-TabPFN's current category recommends 3.5 rather than the task's old-model route, but does not state that the latest version is mandatory. This run stayed with explicit public v2, not 2.5 or an automated license-acceptance flow. Whether to continue A for a partner award remains the coordinator's decision.
-
-The extra direct CLI call also passed all line constraints, but its text differed from the repeated function experiment as fresh search snippets changed. Exact wording is not a stability guarantee.
+现有证据只能证明实际接通与这些样本的格式表现，不能证明所有主题都正确、每次措辞相同、所有用户都节省同样时间。

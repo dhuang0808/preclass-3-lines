@@ -1,0 +1,11 @@
+Measured: 2026-10-22 Asia/Shanghai
+Protocol and complete receipts: article-measurements.json
+Initial flawed outputs preserved: article-measurements-initial.json
+Final live RAG: 2 successes / 3 attempts; 1 search connection failure.
+Successful total seconds: 4.56, 4.99. Failed duration not recorded.
+Input title+snippet characters: 531, 547; output including labels: 143, 158.
+Five-link retrieval protocol: 3 HTTP successes / 5 attempts; 16.017 seconds in total.
+Cached-source local summaries: 3 successes / 3; 3.201, 3.150, 3.216 seconds.
+Client-only non-loopback socket.connect rejected; not an OS/server network audit.
+Human lookup seconds, pages read and preview reading seconds: NOT MEASURED.
+No human time-saving percentage or fully offline live-search claim.

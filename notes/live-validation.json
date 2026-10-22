@@ -4,59 +4,59 @@
     "topic": "梯度下降",
     "line_count": 3,
     "line_lengths": [
-      22,
-      26,
-      38
+      37,
+      32,
+      36
     ],
     "attempts": 1,
-    "total_seconds": 4.53
+    "total_seconds": 6.0
   },
   {
     "case": "concept-2",
     "topic": "梯度下降",
     "line_count": 3,
     "line_lengths": [
-      22,
-      26,
-      38
+      44,
+      50,
+      44
     ],
     "attempts": 1,
-    "total_seconds": 4.13
+    "total_seconds": 4.5
   },
   {
     "case": "concept-3",
     "topic": "梯度下降",
     "line_count": 3,
     "line_lengths": [
-      22,
-      26,
-      38
+      44,
+      50,
+      44
     ],
     "attempts": 1,
-    "total_seconds": 4.19
+    "total_seconds": 4.35
   },
   {
     "case": "current-event",
     "topic": "Hacktoberfest 2026 Week 3 Slow and Steady",
     "line_count": 3,
     "line_lengths": [
-      39,
-      30,
-      29
+      54,
+      38,
+      36
     ],
     "attempts": 1,
-    "total_seconds": 4.42
+    "total_seconds": 4.72
   },
   {
     "case": "daily-life",
     "topic": "大学生如何整理电脑下载文件夹",
     "line_count": 3,
     "line_lengths": [
-      19,
-      25,
-      22
+      29,
+      27,
+      29
     ],
-    "attempts": 2,
-    "total_seconds": 14.02
+    "attempts": 1,
+    "total_seconds": 4.31
   }
 ]
