@@ -1,0 +1,9 @@
+{
+  "topic": "TabPFN",
+  "search": "SerpApi Google, no_cache=true",
+  "source_count": 5,
+  "sources": "1. 标题：Accurate predictions on small data with a tabular ...\n摘要：As a remedy, we introduce TabPFN, a foundation model for small- to medium-sized tabular data. This new supervised tabular learning method can be ...\n2. 标题：PriorLabs/TabPFN - Foundation Model for Tabular Data\n摘要：On first use, TabPFN will automatically open a browser window where you can log in via PriorLabs and accept the license terms. Your authentication token is ...\n3. 标题：TabPFN 3.5\n摘要：TabPFN helps identify lung disease from blood-based biomarkers. Jane Doe — Head of DS Fintech Co. Read case study. Join the next wave. try for free. try ...\n4. 标题：TabPFN: A Transformer That Solves Small Tabular ...\n摘要：TabPFN is a Prior-Data Fitted Network (PFN) and is trained offline once, to approximate Bayesian inference on synthetic datasets drawn from our ...\n5. 标题：TabPFN\n摘要：TabPFN is a machine learning model for tabular datasets proposed in 2022. It uses a transformer architecture. It is intended for supervised classification ...",
+  "stdout": "它是什么：TabPFN 是一种用于处理小型表格数据的机器学习模型。\n为什么重要：它通过Transformer架构，在小数据量下实现准确预测，解决了传统模型在数据稀疏时遇到的问题。\n一个例子：TabPFN 可以用于分析血液生物标志物，从而识别肺部疾病，例如由 Jane Doe 领导的 Fintech Co. 使用。",
+  "line_count": 3,
+  "seconds": 16.4
+}

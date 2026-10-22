@@ -1,6 +1,8 @@
 ﻿import json
 import sys
-from urllib.error import URLError
+from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
 from urllib.request import ProxyHandler, Request, build_opener
 
 
@@ -66,28 +68,50 @@ example：一个具体例子。
     return "\n".join(lines)
 
 
+def search(topic):
+    env_path = Path(__file__).with_name(".env")
+    if not env_path.is_file():
+        raise ValueError("缺少项目目录中的 .env 文件")
+    settings = {}
+    for line in env_path.read_text(encoding="utf-8-sig").splitlines():
+        if line.strip() and not line.lstrip().startswith("#") and "=" in line:
+            key, value = line.split("=", 1)
+            settings[key.strip()] = value.strip().strip("\"'")
+    api_key = settings.get("SERPAPI_API_KEY", "")
+    if not api_key:
+        raise ValueError("请在 .env 中填写 SERPAPI_API_KEY")
+    proxy = settings.get("SERPAPI_PROXY", "")
+    proxies = {"http": proxy, "https": proxy} if proxy else {}
+    params = urlencode({"engine": "google", "q": topic, "hl": "zh-cn",
+                        "api_key": api_key, "no_cache": "true"})
+    request = Request("https://serpapi.com/search.json?" + params,
+                      headers={"User-Agent": "preclass-3-lines/0.1"})
+    with build_opener(ProxyHandler(proxies)).open(request, timeout=60) as response:
+        data = json.load(response)
+    if data.get("error"):
+        raise ValueError("SerpApi 返回搜索错误，请检查账号配额与查询条件")
+    items = data.get("organic_results", [])[:5]
+    if len(items) < 5:
+        raise ValueError("搜索结果不足 5 条，请换一个更明确的主题")
+    if any(not item.get("title") or not item.get("snippet") for item in items):
+        raise ValueError("前 5 条搜索结果有标题或摘要缺失，请换一个主题")
+    return "\n".join(f"{i}. 标题：{item['title']}\n摘要：{item['snippet']}"
+                     for i, item in enumerate(items, 1))
+
+
 def main():
-    # 以下是人工编写的模拟搜索结果，并非真实联网搜索。
-    sources = """
-1. 标题：机器学习入门
-摘要：机器学习通过数据中的规律，对新数据作出预测或分类。
-2. 标题：训练数据的作用
-摘要：训练数据提供样本，模型从样本中学习输入与输出的关系。
-3. 标题：机器学习的应用
-摘要：机器学习可用于商品推荐、垃圾邮件识别和需求预测。
-4. 标题：大学生活中的推荐系统
-摘要：网购平台可以根据用户浏览和购买记录，推荐可能感兴趣的商品。
-5. 标题：模型效果需要验证
-摘要：模型应在未参与训练的数据上评估，预测可能出错。
-"""
-    print(summarize("机器学习", sources))
+    topic = " ".join(sys.argv[1:]).strip() or "TabPFN"
+    print(summarize(topic, search(topic)))
 
 
 if __name__ == "__main__":
     try:
         main()
-    except (URLError, TimeoutError) as error:
-        print(f"本地模型连接失败或等待超时：{error}", file=sys.stderr)
+    except HTTPError as error:
+        print(f"接口请求失败（HTTP {error.code}），请检查服务状态、账号与配额。", file=sys.stderr)
+        sys.exit(1)
+    except (URLError, TimeoutError):
+        print("网络连接失败或等待超时，请检查 Clash 7900 代理和本地 Ollama。", file=sys.stderr)
         sys.exit(1)
     except (ValueError, KeyError, TypeError) as error:
         print(f"模型返回的数据格式不符合要求：{error}", file=sys.stderr)
