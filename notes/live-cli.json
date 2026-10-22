@@ -1,0 +1,44 @@
+{
+  "topic": "梯度下降",
+  "live": true,
+  "source_count": 5,
+  "sources": [
+    {
+      "title": "梯度下降",
+      "snippet": "梯度下降法(gradient descent)是一个最优化算法，常用于机器学习和人工智能当中用来递归性地逼近最小偏差模型。 求解过程. 顾名思义，梯度下降法的计算过程就是沿梯度下降 ...",
+      "link": "https://baike.baidu.com/item/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/4864937"
+    },
+    {
+      "title": "梯度下降.pdf",
+      "snippet": "原始的随机梯度下降等价于用加速度来更新位置,而物理学家喜欢用加速度来更新速度,用. 速度来更新位置。 动量机制(Momentum)可以帮助克服这几个缺点。 带动量的梯度下降.",
+      "link": "https://indico.ihep.ac.cn/event/17315/attachments/64130/75770/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D.pdf"
+    },
+    {
+      "title": "机器学习-梯度下降算法原理及公式推导",
+      "snippet": "梯度下降法就是一种通过求目标函数的导数来寻找目标函数最小化的方法。 梯度下降目的是找到目标函数最小化 ...",
+      "link": "https://blog.csdn.net/iqdutao/article/details/107174240"
+    },
+    {
+      "title": "[深度學習講中文] 簡單解釋梯度下降法(Gradient Descent)",
+      "snippet": "Gradient Descent 是深度學習為了找尋接近目標點的一種方法，它是透過一步步慢慢靠近目標的方式，最終找到一個極近似目標的函數。",
+      "link": "https://medium.com/@arlen.mg.lu/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E8%AC%9B%E4%B8%AD%E6%96%87-gradient-descent-b2a658815c72"
+    },
+    {
+      "title": "梯度下降算法 - 保罗的酒吧",
+      "snippet": "梯度下降算法的主体逻辑很简单，就是沿着梯度的方向一直下降，直到参数收敛为止。 记做：. θk+1 ...",
+      "link": "https://paul.pub/gradient-descent/"
+    }
+  ],
+  "captured_at": "2026-10-22T20:45:07.124787+08:00",
+  "model": "gemma3:4b",
+  "stdout": "它是什么：寻找函数最小值的方法\n为什么重要：理解优化算法，提升机器学习基础\n一个例子：模型预测值与真实值存在偏差，需要调整参数",
+  "attempts": 1,
+  "line_count": 3,
+  "line_lengths": [
+    15,
+    21,
+    25
+  ],
+  "search_seconds": 1.54,
+  "total_seconds": 12.01
+}

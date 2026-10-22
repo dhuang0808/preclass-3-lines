@@ -4,7 +4,7 @@ A small Chinese CLI for the last few minutes before class: enter a topic, fetch 
 
 1. What it is — 它是什么
 2. Why it matters — 为什么重要
-3. A clearly hypothetical example — 一个例子
+3. An illustrative example — 一个例子
 
 Built during DEV's Hacktoberfest 2026 Week 3, “Slow and Steady”. It saves opening several tabs just to get a first orientation; it does not replace a textbook or verify every claim on the web.
 
