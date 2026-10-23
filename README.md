@@ -106,7 +106,7 @@ Unit tests mock services to cover failures and leaks; they are separate from liv
 
 ## Demo and submission status
 
-A replacement gradient-descent video passed visual review and is stored locally in the ignored `notes/private/` directory. See `notes/video-review.md` for the handoff path. It is not embedded or publicly uploaded yet. The author waived a duration target. A public video/embed link must be added when preparing the DEV post.
+The reviewed recording has been converted into a cropped, original-speed GIF and uploaded through the DEV editor. It is embedded in the Demo section of the saved **unpublished** draft and in `docs/submission-draft.md`. The original video remains local in ignored `notes/private/`. See `notes/video-review.md` for the review record. The article itself has not been published.
 
 The English draft is in `docs/submission-draft.md`, with both prize categories and an explicit AI disclosure. GPT/Codex helped with code and the draft; only local Gemma summarizes at runtime. No DEV article has been published. School details were removed with the author's approval; original personal timing records remain local and ignored. Any code changes after the submission deadline must be identified here.
 

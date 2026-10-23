@@ -21,7 +21,7 @@ A little less tab-hopping seemed like a reasonable goal for Slow and Steady.
 
 Here's the gradient-descent run: enter a topic, wait for the search and local generation, and get the three-line preview.
 
-<!-- BEFORE PUBLICATION: upload or embed the reviewed video saved locally as notes/private/gradient-descent-demo-v2.mp4, then replace this comment with its accessible URL. The replacement passed visual review; the author waived a duration target. Do not publish with this placeholder. -->
+![Animated terminal demo: a gradient-descent query followed by three Chinese summary lines](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/lxhxrohogr3li5zpcj75.gif)
 
 ## Code
 

@@ -13,8 +13,8 @@
 | 公开代码 | 已推送 dhuang0808/preclass-3-lines |
 | Prize Categories | 固定列出 Best Use of SerpApi、Best Use of Gemma |
 | 本地模型取舍和量化材料 | 已收到作者真人体验，叙事写入稿件；原始记录仅留本地。新增四主题量化和坏例子，见 day3-results.md |
-| 演示视频或部署链接 | 替换视频已通过视觉检查并存本地；上传/嵌入公开链接留待投稿，见 video-review.md |
-| 英文 DEV 投稿文章 | 英文初稿已写 docs/submission-draft.md，含模板各节、标签、开放创新、两个类别及 AI 披露；未发布 |
+| 演示视频或部署链接 | 作者改选 GIF，已上传 DEV 并嵌入未发布草稿，图片加载成功；原 MP4 仍留本地 |
+| 英文 DEV 投稿文章 | 润色稿及 GIF 已保存到 DEV 未发布草稿，本地 docs/submission-draft.md 同步；标签、两个类别、AI 披露保留 |
 | 必带标签 | 发布时填写 devchallenge、hf26challenge |
 | AI 披露与本人资格 | 发布前如实填写并由本人确认；主要由 agent 写的稿不能冒称人主写 |
 

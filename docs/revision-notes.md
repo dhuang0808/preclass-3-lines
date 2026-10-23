@@ -20,8 +20,12 @@
 
 指定数字、模板栏目、第一段挑战链接、标签、两个 Prize Categories、模型与流程事实、AI 披露事实均保留。学校具体名称未加回。仍为未发布草稿；不声称改写能通过任何 AI 检测。
 
-## 视频状态（本轮当前记录）
+## 演示已就位：GIF
 
-DEV 已登录并核对为 @dhuang0808。当前编辑器的本地文件输入仅接受图片；Cover Video Link 接受外部视频地址，原生 `/videos/new` 返回 404。参见 [DEV 官方视频链接说明](https://dev.to/devteam/you-can-now-use-youtube-videos-as-your-cover-video-on-dev-posts-also-mux-and-twitch-videos-360b)。
+作者选择 GIF 后，已通过 DEV 正文图片上传流程把审核过的动图上传，并嵌入已保存的未发布草稿 Demo 区。图片地址为：
 
-本地 v2 视频仍完整保存，尚未上传，Demo 占位暂留作为未完成标记，不能带着它交最终稿。已询问作者是否授权 YouTube 不公开托管，或提供已有视频链接；取得可用链接后会替换占位并验证草稿预览。在这之前不写“视频已就位”，也不发布文章。
+https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/lxhxrohogr3li5zpcj75.gif
+
+本地 `docs/submission-draft.md` 已同步替换占位注释。回读上传文件确认是 1360×344、109 帧的真实 GIF；保存后页面显示 Unpublished Post、Fully Autonomous 和两个必带标签，Demo 图片加载成功。文章没有发布。
+
+原稿备份保持原样。草稿预览链接及截图仅留在本地 notes/private，不提交公开仓库。原视频和真人计时原始记录也仍仅留本地。
