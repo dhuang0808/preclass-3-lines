@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-23T14:59:03.622202+08:00",
+  "commit": "e8b34c71f40d107d1392176c0545ddbd94334931",
+  "scope": "B local refs, fetched origin refs and reflog-reachable history",
+  "historical_blobs_checked": 85,
+  "checks": [
+    "private paths",
+    "local credential literals and URL encodings",
+    "known real ledger transaction IDs and exact CSV rows"
+  ],
+  "status": "PASS",
+  "findings_redacted": [],
+  "limits": "Cannot prove absence of unknown rewritten/aggregated financial content or inaccessible remote objects; no private values included in this report.",
+  "known_private_ledger_fingerprints_checked": true
+}

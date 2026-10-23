@@ -49,7 +49,7 @@ def main():
     result = {"checked_at": datetime.now().astimezone().isoformat(),
               "commit": git("rev-parse", "HEAD").decode().strip(),
               "scope": "B local refs, fetched origin refs and reflog-reachable history",
-              "historical_blobs_checked": len(blobs), "ledger_identity_count": len(identities),
+              "historical_blobs_checked": len(blobs), "known_private_ledger_fingerprints_checked": bool(identities),
               "checks": ["private paths", "local credential literals and URL encodings", "known real ledger transaction IDs and exact CSV rows"],
               "status": "FAIL" if issues else "PASS", "findings_redacted": sorted(issues),
               "limits": "Cannot prove absence of unknown rewritten/aggregated financial content or inaccessible remote objects; no private values included in this report."}
