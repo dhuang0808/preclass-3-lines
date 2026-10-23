@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "backup_matches_committed_v1": true,
+  "all_required_values_preserved": true,
+  "same_headers_metadata_hook_link_targets": true,
+  "failure_and_AI_disclosure_preserved": true,
+  "school_name_absent": true,
+  "all_English": true,
+  "word_count_before": 1274,
+  "word_count_after": 1077,
+  "numeric_note": "Repeated warning copies of 13 and 71–73 removed; the underlying values remain unchanged.",
+  "video_status": "not uploaded; native DEV upload unavailable in current UI, awaiting hosting authorization"
+}
