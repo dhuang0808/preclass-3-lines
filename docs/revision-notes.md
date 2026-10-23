@@ -29,3 +29,7 @@ https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/lxhxrohogr3li
 本地 `docs/submission-draft.md` 已同步替换占位注释。回读上传文件确认是 1360×344、109 帧的真实 GIF；保存后页面显示 Unpublished Post、Fully Autonomous 和两个必带标签，Demo 图片加载成功。文章没有发布。
 
 原稿备份保持原样。草稿预览链接及截图仅留在本地 notes/private，不提交公开仓库。原视频和真人计时原始记录也仍仅留本地。
+
+## 补充真实输出及英文翻译
+
+文章 Demo 区在 GIF 下方补入该次运行的三行中文原文，紧跟逐行英文翻译；README 的真实运行示例改为中英并排表格。中文逐字对照 `notes/demo-run-output.txt` 和 GIF 末帧，未重新调用模型生成另一份输出。两处共用相同译文，标签译为 What it is / Why it matters / An example；只翻译原文已有意思，没有补充解释、改正模型内容或增加结论。工具代码及原稿备份不变。

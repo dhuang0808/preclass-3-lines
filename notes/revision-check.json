@@ -5,14 +5,19 @@
   "same_headers_metadata_hook_link_targets": true,
   "failure_and_AI_disclosure_preserved": true,
   "school_name_absent": true,
-  "all_English": true,
   "word_count_before": 1274,
-  "word_count_after": 1050,
+  "word_count_after": 1150,
   "numeric_note": "Repeated warning copies of 13 and 71–73 removed; the underlying values remain unchanged.",
   "video_status": "GIF uploaded to DEV and embedded in saved unpublished draft",
   "gif_url": "https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/lxhxrohogr3li5zpcj75.gif",
   "gif_frames_verified": 109,
   "dev_draft_saved": true,
   "dev_published": false,
-  "ai_disclosure": "fully_autonomous"
+  "ai_disclosure": "fully_autonomous",
+  "article_language": "English, with the exact three recorded Chinese output lines quoted in Demo",
+  "bilingual_output_matches_recorded_run": true,
+  "same_translation_in_article_and_readme": true,
+  "existing_article_text_unchanged_by_bilingual_addition": true,
+  "runtime_code_unchanged_by_bilingual_addition": true,
+  "demo_translation_wraps_for_readability": true
 }

@@ -63,11 +63,13 @@ The example below is transcribed from the author's reviewed Day 3 replacement re
 python preclass.py "梯度下降"
 ```
 
-```text
-它是什么：梯度下降法是一种迭代优化算法，通过计算损失函数梯度来调整模型参数，从而降低损失函数值。
-为什么重要：理解梯度下降法有助于掌握机器学习模型训练的基本原理，是后续学习更高级优化算法的基础。
-一个例子：假设一个图像识别模型，通过梯度下降法不断调整参数，以减少识别错误，提高准确率。
-```
+The Chinese column preserves the exact output from the same run shown in the article's GIF. The English column is a line-by-line translation.
+
+| Chinese original | English translation |
+| --- | --- |
+| 它是什么：梯度下降法是一种迭代优化算法，通过计算损失函数梯度来调整模型参数，从而降低损失函数值。 | What it is: Gradient descent is an iterative optimization algorithm that adjusts model parameters by calculating the gradient of the loss function, thereby reducing the value of the loss function. |
+| 为什么重要：理解梯度下降法有助于掌握机器学习模型训练的基本原理，是后续学习更高级优化算法的基础。 | Why it matters: Understanding gradient descent helps you grasp the basic principles of training machine learning models and provides a foundation for learning more advanced optimization algorithms. |
+| 一个例子：假设一个图像识别模型，通过梯度下降法不断调整参数，以减少识别错误，提高准确率。 | An example: Suppose we have an image recognition model. Gradient descent continually adjusts its parameters to reduce recognition errors and improve accuracy. |
 <!-- LIVE_EXAMPLE_END -->
 
 ## How it works
