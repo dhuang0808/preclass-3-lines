@@ -47,6 +47,8 @@ The core acceptance set contains **17 passing unit tests** and **five live runs 
 
 The [measurement notes](https://github.com/dhuang0808/preclass-3-lines/blob/main/notes/lazy-payoff-measurement.md) also keep failures visible. In a separate three-attempt RAG experiment, two live calls succeeded and one search connection failed. On the two successful calls, the preview appeared after **4.56 seconds and 4.99 seconds**. Those are successful-call timings, not an average that includes the failure.
 
+I then tried four new topics closer to first-year coursework. Limits, the geometric meaning of derivatives, overfitting and matrix multiplication took 15.62, 6.12, 8.74 and 7.38 seconds respectively. All four produced valid three-line output. One was a useful warning: the matrix-multiplication explanation confused rows and columns, and its example mentioned projection without showing a multiplication. A correct basic explanation would use row-by-column dot products. I would not use that preview as a definition to memorize. The [full follow-up results](https://github.com/dhuang0808/preclass-3-lines/blob/main/notes/day3-results.md) preserve this failure rather than presenting nine formatted runs as nine correct answers.
+
 ## Why Does Open Innovation Matter?
 
 For me, local inference makes experimentation tangible. I can inspect the prompt, change the validation and run the summarization model on my own computer. Gemma is the part that turns retrieved material into an explanation; it is central to the product.

@@ -1,0 +1,3 @@
+PASS: English draft/template/tags/disclosure/categories; four real topic receipts; compression arithmetic; script syntax; raw timing and video absent from public reachable history.
+Historical core tests: 17 passing in notes/unit-tests.txt; runtime core code unchanged on Day 3.
+LICENSE: MIT present. .gitignore protects .env, raw records and local videos.

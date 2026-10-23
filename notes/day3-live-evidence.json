@@ -1,0 +1,206 @@
+{
+  "quota_before": {
+    "checked_at": "2026-10-23T14:48:31.642948+08:00",
+    "plan_name": "Free Plan",
+    "searches_per_month": 250,
+    "this_month_usage": 27,
+    "total_searches_left": 223
+  },
+  "runs": [
+    {
+      "topic": "函数极限的直观含义",
+      "live": true,
+      "source_count": 5,
+      "sources": [
+        {
+          "title": "函数极限- 维基百科，自由的百科全书",
+          "snippet": "在数学中，函数极限（英语：Limit of a function）是微积分的一个基本概念。它描述函数在接近某一给定自变量时的特征。函数 f {\\displaystyle f} {\\displaystyle f} ...",
+          "link": "https://zh.wikipedia.org/zh-hans/%E5%87%BD%E6%95%B8%E6%A5%B5%E9%99%90"
+        },
+        {
+          "title": "极限和连续性| 微分学| 数学",
+          "snippet": "极限描述一个函数在自变量接近一个特定值时的趋势，而不管函数在该点的实际值为多少。连续性要求函数在某一点附近的趋势与函数在该点的实际值相等。",
+          "link": "https://zh.khanacademy.org/math/differential-calculus/dc-limits"
+        },
+        {
+          "title": "关于极限概念的学习On Learning of the Concept of Limit",
+          "snippet": "通过“溯源”，建立对抽象的数学概念——极限的直观理解和逻辑认知，从而更好地理解微积分的基石. ——极限理论。从三个物理与几何背景问题出发，深入浅出地 ...",
+          "link": "https://pdf.hanspub.org/pm_1253054.pdf"
+        },
+        {
+          "title": "【高三大一微積分】極限篇｜3｜一些基本函數的極限(上集)",
+          "snippet": "了解了極限的嚴格定義以後，運用其定義證明一些最簡單最基本函數(本集講常數函數、單項式函數、絕對值函數、根式函數) 的極限，之後靠這些基本函數的 ...",
+          "link": "https://www.youtube.com/watch?v=qoIOFz1D_W4"
+        },
+        {
+          "title": "深入理解函数的极限：从直观到严谨的数学之旅- wgwyanfs",
+          "snippet": "函数极限是微积分的核心概念，从直观的“无限接近”到严格的ε-δ 定义，体现了数学从直觉到公理化的演进。掌握极限的定义、性质、计算方法和判定准则，是 ...",
+          "link": "https://www.cnblogs.com/wgwyanfs/p/19995624"
+        }
+      ],
+      "captured_at": "2026-10-23T14:48:47.262305+08:00",
+      "model": "gemma3:4b",
+      "stdout": "它是什么：函数极限描述了函数在自变量接近某个值时的趋势，不依赖于函数在该点的具体值。\n为什么重要：理解极限有助于掌握微积分的基础，是解决相关问题的关键。\n一个例子：假设函数 f(x) = x+1，当 x 接近 2 时，f(x) 接近 3。",
+      "attempts": 1,
+      "line_count": 3,
+      "line_lengths": [
+        42,
+        33,
+        42
+      ],
+      "search_seconds": 1.35,
+      "total_seconds": 15.62,
+      "input_title_snippet_chars": 544,
+      "output_chars_including_labels": 117,
+      "displayed_text_reduction_percent": 78.49
+    },
+    {
+      "topic": "导数的几何意义",
+      "live": true,
+      "source_count": 5,
+      "sources": [
+        {
+          "title": "导数的几何意义_章节学习",
+          "snippet": "导数的几何意义专项练习，通过试题学习更好的掌握考点重点， ... 导数的几何意义; 共3561题. 章节学习; · 第一章; · 导数的计算; · 导数的几何意义.",
+          "link": "https://tiku.baidu.com/tikupc/chapterdetail/4d5e312b3169a4517723a304-3056-5-jiaocai"
+        },
+        {
+          "title": "导数的几何意义_章节学习",
+          "snippet": "导数的几何意义专项练习，通过试题学习更好的掌握考点重点， ... 导数的几何意义; 共3561题. 章节学习; · 第一章; · 导数的计算; · 导数的几何意义.",
+          "link": "https://tiku.baidu.com/tikupc/chapterdetail/4d5e312b3169a4517723a304-2976-5-jiaocai"
+        },
+        {
+          "title": "导数的几何意义_章节学习",
+          "snippet": "正确答案 ; 解：（Ⅰ）依题意知，直线 的斜率 ， ; ∵ ，故直线 与函数f（x）的图像的切点坐标是(1，0)， ; ∴直线的方程为y=x-1， ; 又∵直线 与 的图像也相切， ; ∴由 ，得 ...",
+          "link": "https://tiku.baidu.com/tikupc/chapterdetail/4d5e312b3169a4517723a304-3016-5-jiaocai"
+        },
+        {
+          "title": "高二-数学-导数的几何意义-邢延梓",
+          "snippet": "'各位家长和同学好，本店铺为新东方济南学校高中一对一在线店铺，您可以在线选择我们的课程，新东方济南学校官方客服电话：0531-87176688'",
+          "link": "https://z173921.weixin.xdf.cn/wechat/course/detail?cid=17774"
+        },
+        {
+          "title": "08 导数的几何意义、微分的定义与计算",
+          "snippet": "08 导数的几何意义、微分的定义与计算，1一个点处的切线斜率就是这个点的导数。2必须要验证这个点在不在线上，才能用点斜式方程。3先看这个点是否在 ...",
+          "link": "https://blog.51cto.com/u_15127558/4250422"
+        }
+      ],
+      "captured_at": "2026-10-23T14:48:53.386386+08:00",
+      "model": "gemma3:4b",
+      "stdout": "它是什么：导数表示曲线在某一点的瞬时斜率，是函数变化快慢的度量。\n为什么重要：理解导数的几何意义有助于我们直观地把握函数图像的性质。\n一个例子：假设函数 f(x) 在 x=2 处取得极值，则 f'(2) 的绝对值表示该点切线的斜率大小。",
+      "attempts": 1,
+      "line_count": 3,
+      "line_lengths": [
+        32,
+        33,
+        51
+      ],
+      "search_seconds": 0.96,
+      "total_seconds": 6.12,
+      "input_title_snippet_chars": 486,
+      "output_chars_including_labels": 116,
+      "displayed_text_reduction_percent": 76.13
+    },
+    {
+      "topic": "机器学习中的过拟合",
+      "live": true,
+      "source_count": 5,
+      "sources": [
+        {
+          "title": "机器学习中的过拟合及其解决办法",
+          "snippet": "当训练一个有足够大表达能力的大模型时，随着训练的迭代，训练集的损失和验证集的损失都会会慢慢变小，到了过拟合点之后，训练集的损失继续降低，而验证集的损失会回升，这 ...",
+          "link": "https://github.com/Captain1986/CaptainBlackboard/blob/master/D%230021-%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E8%BF%87%E6%8B%9F%E5%90%88%E5%8F%8A%E5%85%B6%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/D%230021.md"
+        },
+        {
+          "title": "机器学习中的过拟合与欠拟合：诊断与解决方案",
+          "snippet": "定义： 模型在训练数据和测试数据上都表现不佳，未能充分学习到数据中的模式。 原因： 模型过于简单 ...",
+          "link": "https://blog.csdn.net/2501_93047775/article/details/151352961"
+        },
+        {
+          "title": "什么是过拟合？避免过拟合的10个方法",
+          "snippet": "在机器学习中，过拟合是一个常见问题，具体表现为模型在测试数据上泛化不佳。那什么时候会出现过拟合？模型性能的高方差是过度拟合问题的一个指标。",
+          "link": "https://fuxi.163.com/database/379"
+        },
+        {
+          "title": "什么是“过拟合”（overfitting），它是如何影响模型性能的？",
+          "snippet": "过拟合是机器学习中的一个常见现象，指的是模型在训练数据上表现得非常好，但在未见过的新数据（测试集或验证集）上表现较差。造成过拟合的原因可能 ...",
+          "link": "https://www.zhihu.com/question/14066137692/answer/1892253994895775093"
+        },
+        {
+          "title": "模型过拟合判断方法及缓解方案详解",
+          "snippet": "模型过拟合是机器学习中常见的问题，指的是模型在训练数据上表现很好，但在未见过的测试数据或新数据上表现较差。以下是关于模型过拟合的判断方法及 ...",
+          "link": "https://zhuanlan.zhihu.com/p/1891541802798014479"
+        }
+      ],
+      "captured_at": "2026-10-23T14:49:02.127697+08:00",
+      "model": "gemma3:4b",
+      "stdout": "它是什么：过拟合是指模型在训练数据上表现出色，但对新数据泛化能力差，导致预测效果下降。\n为什么重要：理解过拟合有助于我们选择合适的模型复杂度，并采取相应的措施提升模型的泛化能力。\n一个例子：假设一个图像识别模型，在大量猫猫图片上训练后，能准确识别训练猫猫，但对其他动物图片识别效果很差。",
+      "attempts": 1,
+      "line_count": 3,
+      "line_lengths": [
+        43,
+        45,
+        53
+      ],
+      "search_seconds": 3.01,
+      "total_seconds": 8.74,
+      "input_title_snippet_chars": 455,
+      "output_chars_including_labels": 141,
+      "displayed_text_reduction_percent": 69.01
+    },
+    {
+      "topic": "线性代数中的矩阵乘法",
+      "live": true,
+      "source_count": 5,
+      "sources": [
+        {
+          "title": "【2.3】正式谈谈矩阵的乘法和矩阵的逆",
+          "snippet": "2. 矩阵相乘“列的观点”：AB 的第j 列=用B 的第j 列作为线性组合系数对A 的列向量进行线性组合。 例如：\\begin{bmatrix}2&4&-2\\\\4&9&-3\\\\-2&-3&7\\end{bmatrix}\\begin ...",
+          "link": "https://zhuanlan.zhihu.com/p/126548944"
+        },
+        {
+          "title": "线性代数（3）矩阵与向量的乘积的两种理解原创",
+          "snippet": "矩阵A与向量x的乘积可以表示为向量x的转置（向量x可以看做三行一列的矩阵）与行向量B的点乘：. 2. 上述方程组也可以表示为如下点乘形式：. 《=》. 这 ...",
+          "link": "https://blog.csdn.net/weicao1990/article/details/79358685"
+        },
+        {
+          "title": "线性代数与矩阵之理解向量、线性变换与矩阵乘法",
+          "snippet": "也就是说，我们沿某一个方向行进时，可以行进某一特定长度的倍数（向量的数乘），如果每个方向都取一样的特定长度，那我们就把这个方向与特定长度的组合称 ...",
+          "link": "https://surprisedcat.github.io/studynotes/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E4%B8%8E%E7%9F%A9%E9%98%B5%E4%B9%8B%E7%90%86%E8%A7%A3%E5%90%91%E9%87%8F%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2%E4%B8%8E%E7%9F%A9%E9%98%B5%E4%B9%98%E6%B3%95/"
+        },
+        {
+          "title": "线性代数篇答疑和总结：矩阵乘法的几何意义是什么？ - 极客时间",
+          "snippet": "线性代数模块总结了向量、矩阵及其操作，强调了其在信息检索和机器学习中的广泛应用。文章深入浅出地解释了矩阵乘法的几何意义和SVD分解的原理，强调了线性代数知识在 ...",
+          "link": "https://time.geekbang.org/column/article/88078"
+        },
+        {
+          "title": "有趣的线性代数（一）：矩阵乘法",
+          "snippet": "对于一个方阵A 来说，左乘一个行向量x，可以理解为：使用x 中的值作为权重，对A 中行向量进行线性组合，得到一个新的行向量b。",
+          "link": "https://www.qtmuniao.com/2024/06/29/interesting-linear-algebra-1/"
+        }
+      ],
+      "captured_at": "2026-10-23T14:49:09.513300+08:00",
+      "model": "gemma3:4b",
+      "stdout": "它是什么：矩阵乘法是将一个矩阵的列向量，作为另一个矩阵的行向量的系数，进行线性组合。\n为什么重要：理解矩阵乘法有助于掌握线性变换和向量运算的基础。\n一个例子：假设我们要将一个向量投影到另一个向量方向上。",
+      "attempts": 1,
+      "line_count": 3,
+      "line_lengths": [
+        42,
+        30,
+        27
+      ],
+      "search_seconds": 2.88,
+      "total_seconds": 7.38,
+      "input_title_snippet_chars": 530,
+      "output_chars_including_labels": 99,
+      "displayed_text_reduction_percent": 81.32
+    }
+  ],
+  "quota_after": {
+    "checked_at": "2026-10-23T14:49:10.376554+08:00",
+    "plan_name": "Free Plan",
+    "searches_per_month": 250,
+    "this_month_usage": 31,
+    "total_searches_left": 219
+  }
+}

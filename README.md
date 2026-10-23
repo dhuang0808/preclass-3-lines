@@ -8,6 +8,21 @@ A small Chinese CLI for the last few minutes before class: enter a topic, fetch 
 
 Built during DEV's Hacktoberfest 2026 Week 3, “Slow and Steady”. It saves opening several tabs just to get a first orientation; it does not replace a textbook or verify every claim on the web.
 
+## Quick start in three steps
+
+With Python, Git and Ollama installed:
+
+1. Get the code and the model:
+
+   ```powershell
+   git clone https://github.com/dhuang0808/preclass-3-lines.git
+   Set-Location preclass-3-lines
+   ollama pull gemma3:4b
+   ```
+
+2. Copy `.env.example` to `.env` on first setup, then use a text editor to fill `SERPAPI_API_KEY`. Keep your existing `.env` when updating. Leave the optional proxy empty unless needed; keep Ollama running locally.
+3. Run `python preclass.py "梯度下降"` and read the three lines. No pip packages are needed. Detailed requirements follow.
+
 ## Requirements and installation
 
 - Windows with Python (tested: 3.13.15), Git, and Ollama.
@@ -41,17 +56,23 @@ The Google request sets `no_cache=true`, so each run uses a search request from 
 
 ## Example output
 
-The verified example and all three-topic live receipts are in `notes/live-*.json`; the run transcript is `notes/product-validation.txt`. The example below is copied from the final live concept run.
+The example below is transcribed from the author's reviewed Day 3 replacement recording; see `notes/demo-run-output.txt`. Earlier three-topic receipts remain in `notes/live-*.json`, and four new coursework topics are recorded in `notes/day3-live-evidence.json`.
 
 <!-- LIVE_EXAMPLE_START -->
+```powershell
+python preclass.py "梯度下降"
+```
+
 ```text
-它是什么：梯度下降是一种迭代优化算法，通过计算损失函数梯度来调整模型参数，以最小化损失。
-为什么重要：理解梯度下降有助于掌握机器学习中模型训练的基本原理，并能更好地理解模型参数是如何更新的。
-一个例子：假设一个线性回归模型，通过梯度下降不断调整权重，降低预测值与真实值之间的误差。
+它是什么：梯度下降法是一种迭代优化算法，通过计算损失函数梯度来调整模型参数，从而降低损失函数值。
+为什么重要：理解梯度下降法有助于掌握机器学习模型训练的基本原理，是后续学习更高级优化算法的基础。
+一个例子：假设一个图像识别模型，通过梯度下降法不断调整参数，以减少识别错误，提高准确率。
 ```
 <!-- LIVE_EXAMPLE_END -->
 
 ## How it works
+
+SerpApi retrieves five live titles and snippets, local Gemma drafts the explanation, and Python validates and prints three short lines.
 
 `CLI topic → SerpApi live search → first 5 titles + snippets → local Gemma → validation → 3 lines`
 
@@ -85,9 +106,9 @@ Unit tests mock services to cover failures and leaks; they are separate from liv
 
 ## Demo and submission status
 
-Screenshot placeholder: `notes/screenshots/README.md` describes the planned capture. No screenshot or demo video is claimed to exist yet. A deployed link or video is still required for the DEV submission; a placeholder is not a completed demo.
+A replacement gradient-descent video passed visual review and is stored locally in the ignored `notes/private/` directory. See `notes/video-review.md` for the handoff path. It is not embedded or publicly uploaded yet. The author waived a duration target. A public video/embed link must be added when preparing the DEV post.
 
-The code was developed and tested with Codex assistance. A future DEV article must accurately disclose AI involvement; this README does not assert that a human wrote an AI-generated article. No DEV article has been published by this project.
+The English draft is in `docs/submission-draft.md`, with both prize categories and an explicit AI disclosure. GPT/Codex helped with code and the draft; only local Gemma summarizes at runtime. No DEV article has been published. School details were removed with the author's approval; original personal timing records remain local and ignored. Any code changes after the submission deadline must be identified here.
 
 ## Limitations
 
@@ -95,7 +116,8 @@ The code was developed and tested with Codex assistance. A future DEV article mu
 - Local small-model output can be vague or wrong. The first tuning round and its limitations are retained in `notes/iteration1-*`.
 - Dates and rapidly changing topics require checking the linked sources; factual correctness is not guaranteed.
 - Inference speed depends on the hardware. Search availability and quota belong to SerpApi.
-- No measured human time-saving study or guaranteed percentage reduction is claimed.
+- The author reported four minutes and three pages for a rough first understanding of gradient descent, versus 18 seconds until the preview. About 13x compares those two personal timings, not controlled learning time; no separate preview-reading time was reported.
+- Four additional coursework topics met the format checks, but manual review found a misleading matrix-multiplication explanation. See `notes/day3-results.md`; concise output is not verified teaching material.
 
 ## License
 

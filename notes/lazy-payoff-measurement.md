@@ -4,7 +4,7 @@
 
 2026-10-22，在这台 Windows 电脑上用 `gemma3:4b` 测试“检索增强生成 RAG 是什么”。固定流程是：三次独立实时搜索与生成；对首个成功结果的五个来源逐个请求一次；再用缓存摘要做三次本地生成。脚本：[measure_article_evidence.py](../scripts/measure_article_evidence.py)，原始数据：[article-measurements.json](article-measurements.json)。
 
-**这是机器流程实测，不是真人阅读实验。** 目前不知道本人传统查阅用了几分钟、实际看了几页，也不知道读懂三行用了几秒。不能把程序请求网页的时间冒充传统学习时间，不能把出现三行的时间冒充读完时间。补录方法见 [真人计时表](human-timing-protocol.md)。
+**下方是 10 月 22 日机器流程实测，不是真人阅读实验。** 10 月 23 日作者另行报告：梯度下降第一次接触，传统查阅 4 分钟、打开 3 页，仅粗略了解；工具 18 秒出三行，约 13 倍。原始计时记录按作者要求仅留本地，公开叙事数字已获授权。三行阅读时间没有单独报告，不能声称学习速度提高 13 倍。
 
 ## 实测数字
 
@@ -17,7 +17,7 @@
 | 五个来源的固定逐页请求协议 | 尝试 5 页，HTTP 成功 3 页；1 页 403，1 页连接失败；请求时间合计 16.017 秒 | 只是取网页的自动化流程；没有浏览器渲染或人的阅读，不是传统方式学习耗时 |
 | 三个成功网页的粗略 HTML 文本 | 共 17,256 个非空白字符 | 包含页面杂项、缺少动态内容，不是精确正文长度；不拿它算学习提效 |
 | 缓存摘要的本地生成 | 3/3 次成功；3.201、3.150、3.216 秒 | 当前 Python 客户端只允许回环连接、不带 API key 时仍能生成三行 |
-| 真人传统查阅与三行阅读 | 未测 | 文章只能写待测，不能编“原来 10 分钟，现在 5 秒” |
+| 真人体验 | 本次机器实验未测；Day 3 作者另报 4 分钟 / 3 页 / 18 秒 | 独立体验，不能并入机器实验；三行阅读耗时未单独报告 |
 
 字符数按 Python 字符串长度统计：输入只算标题和摘要，输出包含标签、空格、标点，不含换行；不是 token 数或阅读难度指标。2 次成功结果均为 3 行、每行不超过 64 字符、一次生成通过。量化实验前模型已使用过，不是冷启动速度测试。
 
@@ -37,7 +37,7 @@
 
 ## 英文文章可用表述
 
-> In a three-attempt machine test on my laptop, two live runs produced the three-line preview in 4.56 and 4.99 seconds; one search attempt failed. The five titles and snippets contained 531 and 547 characters, while the previews contained 143 and 158 characters including labels. That reduced displayed text by about 71–73%, not measured learning time. A separate five-link retrieval protocol reached three pages and encountered two failures. I have not yet timed a person reading those pages or the preview, so I cannot claim a human time-saving percentage.
+> In a three-attempt machine test on my laptop, two live runs produced the three-line preview in 4.56 and 4.99 seconds; one search attempt failed. The five titles and snippets contained 531 and 547 characters, while the previews contained 143 and 158 characters including labels. That reduced displayed text by about 71–73%, not measured learning time. A separate five-link retrieval protocol reached three pages and encountered two failures. This machine test did not time a person reading those pages or the preview, so it cannot establish a human time-saving percentage. The separate author-reported gradient-descent experience is described in the submission draft.
 
 ## 文章的 Prize Categories
 

@@ -1,0 +1,6 @@
+Command: python preclass.py 梯度下降
+Transcribed from the reviewed replacement video, not from a new model call.
+
+它是什么：梯度下降法是一种迭代优化算法，通过计算损失函数梯度来调整模型参数，从而降低损失函数值。
+为什么重要：理解梯度下降法有助于掌握机器学习模型训练的基本原理，是后续学习更高级优化算法的基础。
+一个例子：假设一个图像识别模型，通过梯度下降法不断调整参数，以减少识别错误，提高准确率。
