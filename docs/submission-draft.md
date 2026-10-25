@@ -9,7 +9,7 @@ ai_disclosure_level: fully_autonomous
 
 ## What I Built
 
-Four minutes, three web pages, and still only a rough idea of gradient descent.
+Four minutes. Three web pages. Still only a rough idea of gradient descent.
 
 I'd never studied it before. I'm a first-year university student, and I wanted a quick way into an unfamiliar topic before class. Searching gave me plenty to read. Working out where to begin was still my job.
 
@@ -19,7 +19,7 @@ A little less tab-hopping seemed like a reasonable goal for Slow and Steady.
 
 ## Demo
 
-Here's the gradient-descent run: enter a topic, wait for the search and local generation, and get the three-line preview.
+Here's the gradient-descent run. Enter a topic, wait for the search and local generation, and out come the three lines.
 
 ![Animated terminal demo: a gradient-descent query followed by three Chinese summary lines](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/lxhxrohogr3li5zpcj75.gif)
 
@@ -43,11 +43,11 @@ Line-by-line English translation:
 
 [Source code on GitHub](https://github.com/dhuang0808/preclass-3-lines)
 
-The Python code is MIT-licensed, with setup instructions and a real output example in the README. You'll need Python, a SerpApi account and the local Gemma model. There are no third-party Python packages to install. Search providers and model weights keep their own terms.
+The Python code uses the MIT license. The README has setup instructions and a real output example. You'll need Python, a SerpApi account and the local Gemma model. There are no third-party Python packages to install. Search providers and model weights keep their own terms.
 
 ## How I Built It
 
-I started by giving the model some sample notes. Could it turn them into three useful lines? Once that worked, I connected real search results.
+First, I gave the model some sample notes. Could it turn them into three useful lines? Once that worked, I connected real search results.
 
 `Topic → SerpApi → five titles and snippets → local Gemma → validation → three lines`
 
@@ -69,7 +69,7 @@ All four new answers passed the format checks, which says something about the ch
 
 ## Why Does Open Innovation Matter?
 
-Running Gemma locally lets me see and change the part that writes the explanation. I can edit the prompt, adjust the checks and try again on my own computer. Having those pieces within reach matters when I'm still learning how they fit together.
+With Gemma running on my own computer, I can see and change the part that writes the explanation. I can edit the prompt, adjust the checks and try again on my own computer. Having those pieces within reach matters when I'm still learning how they fit together.
 
 It also means the snippets and summarization prompt don't need to go to another hosted LLM. **The query still goes to SerpApi**, so live search needs the internet. With the model and cached snippets already available, the summary stage can run locally.
 
@@ -79,11 +79,11 @@ Publishing the failed examples gives the next person a place to start, too. They
 
 ## My Agent Session
 
-The repository has curated [test results](https://github.com/dhuang0808/preclass-3-lines/blob/main/notes/unit-tests.txt), [live-run transcripts](https://github.com/dhuang0808/preclass-3-lines/blob/main/notes/product-validation.txt) and [initial flawed outputs](https://github.com/dhuang0808/preclass-3-lines/blob/main/notes/article-measurements-initial.json) from the build. I haven't shared an unredacted agent-session transcript.
+I've collected the build's [test results](https://github.com/dhuang0808/preclass-3-lines/blob/main/notes/unit-tests.txt), [live-run transcripts](https://github.com/dhuang0808/preclass-3-lines/blob/main/notes/product-validation.txt) and [initial flawed outputs](https://github.com/dhuang0808/preclass-3-lines/blob/main/notes/article-measurements-initial.json) in the repository. I haven't shared an unredacted agent-session transcript.
 
 ## The Lazy Payoff
 
-For my first encounter with gradient descent, traditional lookup took **four minutes**. I opened **three web pages** and came away with only a rough understanding. The tool produced its three-line preview in **18 seconds**.
+Looking up gradient descent the traditional way took me **four minutes** the first time. I opened **three web pages** and came away with only a rough understanding. The tool produced its three-line preview in **18 seconds**.
 
 That's about **13 times faster to an initial preview**: 240 divided by 18 is approximately 13.3. It's a personal timing comparison with different endpoints. The four minutes include searching and reading; the 18 seconds stop when the output appears. I didn't report a separate reading time for the preview, and seeing the topic once could affect the second attempt. It doesn't establish how quickly I learned it.
 
